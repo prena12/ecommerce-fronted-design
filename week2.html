@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Page - MyStore</title>
+  <link rel="stylesheet" href="week2.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="main-header">
+    <div class="container">
+      <div class="logo">MyStore</div>
+      <nav class="nav-links">
+        <a >Home</a>
+        <a >Product</a>
+        <a >Contact</a>
+        <a >Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to MyStore</h1>
+      <p>Discover the best products at unbeatable prices!</p>
+      <div class="hero-buttons">
+        <button class="cta">Shop Now</button>
+        <button class="cta secondary">Learn More</button>
+      </div>
+    </div>
+  </section>
+  <div class="spacer"></div>
+
+  <!-- Featured Categories -->
+  <section class="featured">
+    <h2>Featured Categories</h2>
+    <div class="categories">
+      <div class="category-card" data-category="electronics">Electronics</div>
+      <div class="category-card" data-category="fashion">Fashion</div>
+      <div class="category-card" data-category="home-decor">Home Decor</div>
+    </div>
+  </section>
+
+  <!-- Product Listing Section -->
+  <section class="product-listing">
+    <h2>All Products</h2>
+    <div class="product-grid">
+      <!-- Electronics -->
+      <div class="product-card" data-category="electronics">
+        <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=400&q=80" alt="Smartphone" class="product-img">
+        <h3>Smartphone</h3>
+        <p>$299.99</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+      <div class="product-card" data-category="electronics">
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80" alt="Headphones" class="product-img">
+        <h3>Wireless Headphones</h3>
+        <p>$89.99</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+      <div class="product-card" data-category="electronics">
+        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Laptop" class="product-img">
+        <h3>Laptop</h3>
+        <p>$799.99</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+      <!-- Fashion -->
+      <div class="product-card" data-category="fashion">
+        <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80" alt="Shirt 1" class="product-img">
+        <h3>Classic White Shirt</h3>
+        <p>$24.99</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+      <div class="product-card" data-category="fashion">
+        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=400&q=80" alt="Shirt 2" class="product-img">
+        <h3>Blue Denim Shirt</h3>
+        <p>$29.99</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+      <div class="product-card" data-category="fashion">
+        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80" alt="Pant 1" class="product-img">
+        <h3>Black Formal Pants</h3>
+        <p>$34.99</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+      <!-- Home Decor -->
+      <div class="product-card" data-category="home-decor">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Vase" class="product-img">
+        <h3>Decorative Vase</h3>
+        <p>$19.99</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+      <div class="product-card" data-category="home-decor">
+        <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=400&q=80" alt="Wall Art" class="product-img">
+        <h3>Wall Art</h3>
+        <p>$39.99</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+      <div class="product-card" data-category="home-decor">
+        <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=400&q=80" alt="Table Lamp" class="product-img">
+        <h3>Table Lamp</h3>
+        <p>$27.99</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+    </div>
+    <div class="pagination">
+      <button id="loadMore">Load More</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container">
+      <p>&copy; 2025 MyStore. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="week2.js"></script>
+</body>
+</html>
