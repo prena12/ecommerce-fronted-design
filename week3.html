@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Details</title>
+  <link rel="stylesheet" href="week3.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">ShopNow</div>
+    <input type="text" placeholder="Search products..." class="search-bar" />
+  </header>
+
+  <main class="product-container">
+    <div class="image-section">
+      <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80" alt="Classic White Shirt" style="width:100%;max-width:400px;height:auto;display:block;margin:auto;border-radius:16px;box-shadow:0 4px 24px rgba(33,150,243,0.15);background:#f5f7fa;" />
+    </div>
+    <div class="details-section">
+      <h1>Classic White Shirt</h1>
+      <p class="price">$24.99</p>
+      <p class="description">
+        Elegant and comfortable white shirt, perfect for both formal and casual occasions.
+      </p>
+
+      <label for="size">Size:</label>
+      <select id="size">
+        <option value="">Select Size</option>
+        <option>S</option>
+        <option>M</option>
+        <option>L</option>
+        <option>XL</option>
+        <option>XXL</option>
+      </select>
+
+      <button id="addToCart">Add to Cart</button>
+    </div>
+  </main>
+
+  <section class="reviews">
+    <h2>Customer Reviews</h2>
+    <div class="review">
+      <strong>Alice</strong>
+      <p>Very comfortable and stylish! ⭐⭐⭐⭐</p>
+    </div>
+    <div class="review">
+      <strong>John</strong>
+      <p>Great value for money. ⭐⭐⭐⭐⭐</p>
+    </div>
+  </section>
+
+  <script src="week3.js"></script>
+</body>
+</html>
